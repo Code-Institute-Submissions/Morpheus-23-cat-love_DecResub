@@ -24,7 +24,6 @@ body{
 
 h2 {
     font-family: Oswald;
-/*    text-transform: uppercase;*/
     letter-spacing: 4px;
     color: #fafafa;
     padding-left: 20px;
@@ -63,45 +62,45 @@ h2 {
 /*HOME*/
 #home-menu:hover {
     background-color: #F6BB46;
-    color: #777777;
+    color: #444444;
 }
 
 .topnav a.home-active {
     background-color: #F6BB46;
-    color: #777777;
+    color: #444444;
 }
 
 /*OUR CATS*/
 #ourcats-menu:hover {
     background-color: #56B9F7;
-    color: #777777;
+    color: #444444;
 }
 
 .topnav a.ourcats-active {
     background-color: #56B9F7;
-    color: #777777;
+    color: #444444;
 }
 
 /*ADOPT*/
 #adopt-menu:hover {
     background-color: #7BB764;
-    color: #777777;
+    color: #444444;
 }
 
 .topnav a.adopt-active {
   background-color: #7BB764;
-  color: #777777;
+  color: #444444;
 }
 
 /*FIND US*/
 #findus-menu:hover {
-    background-color: #F2DC6B;
-    color: #777777;
+    background-color: #E6C87A;
+    color: #444444;
 }
 
 .topnav a.findus-active {
-    background-color: #F2DC6B;
-    color: #777777;
+    background-color: #E6C87A;
+    color: #444444;
 }
 
 /* home: Hero image and cover text */
@@ -118,14 +117,11 @@ h2 {
     height:600px;
     width: 100%;
     background: url("/assets/images/maincat.jpg") no-repeat center center;
-
-    /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
     animation-duration: 8s;
     animation-fill-mode: forwards;
 }
 
-/* Creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -135,35 +131,30 @@ h2 {
     }
 }
 
-#cover-text, #cover-text h2 {
+#cover-text-ourstory, #cover-text-ourstory h2 {
     color: #FAC335;
 }
 
-#cover-text {
+#cover-text-ourstory {
     font-size: 130%;
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     top: 100px;
     left: 150px;
     width: 300px;
     height: 300px;
-
     padding-top: 50px;
     padding-left: 50px;
-
     background-color: rgba(130,117,43, .5);
     position: absolute;
-
     border-radius: 60px;
-
 }
 
-/* Our Story */
+/* -------------------------- Our Story */
 
 #our-story-section {
-    height: 400px;
+    height: 1200px;
 }
 
 #our-story {
@@ -178,13 +169,6 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
 }
 
-/* .our-story-grid-div {
-    min-width: 100px;
-    padding-left: 70px;
-    padding-right: 70px;
-    text-align: center;
-} */
-
 .grid > div {
     min-width: 100px;
     padding-left: 70px;
@@ -195,7 +179,6 @@ h2 {
 #left-about{
     padding-top: 30px;
     padding-left: 50px;
-
     float: left;
 }
 
@@ -218,7 +201,6 @@ h2 {
     line-height: 30px;
     clear: both;
     margin-bottom: 50px;
-
 } 
 
 .right-about-heading {
@@ -235,6 +217,26 @@ h2 {
 }
 
 /* ------------------------------- our-cats  */
+
+#cover-text-ourcats, #cover-text-ourcats h2 {
+    color: #56B9F7;
+}
+
+#cover-text-ourcats {
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    top: 100px;
+    left: 150px;
+    width: 300px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 50px;
+    background-color: rgba(86,185,247, .3);
+    position: absolute;
+    border-radius: 60px;
+}
 
 #our-cats{
     background-repeat: no-repeat;
@@ -287,12 +289,6 @@ h2 {
 
 /* ---------------------- Adopt */
 
-#adopt{
-    background-repeat: no-repeat;
-    overflow: hidden;
-    padding-left: 20px;
-}
-
 #hero-image-adopt { 
     height:600px;
     width: 100%;
@@ -304,11 +300,7 @@ h2 {
 
 .adopt-section {
     clear: left;
-    /* background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg"); */
-    /* background-size: cover; */
-    /* background-position: center; */
     height: 1000px;
-    /* width: 1000px; */
 }
 
 .adopt-form {
@@ -322,7 +314,6 @@ h2 {
     padding-bottom: 30px;
     padding-left: 150px;
     padding-right: 150px;
-    /* margin: auto; */
 }
 
 #adopt-form h2 {
@@ -364,7 +355,23 @@ h2 {
     color:#7BB764;
 }
 
-/* Footer */
+/* --------------------------- Find Us  */
+
+#hero-image-findus { 
+    height:600px;
+    width: 100%;
+    background: url("/assets/images/findus-hero.jpg") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+.findus-section {
+    clear: left;
+    height: 500px;
+}
+
+/* ---------------------- Footer */
 
 .social-networks {
     background-color: #222222;
@@ -374,7 +381,6 @@ h2 {
     width: 100%;
     text-align: center;
     position: fixed;
-  
 }
 
 .social-networks li {
@@ -387,4 +393,3 @@ h2 {
     padding: 2%;
     color: #fafafa;
 }
-
