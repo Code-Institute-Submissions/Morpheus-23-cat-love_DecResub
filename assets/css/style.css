@@ -7,53 +7,100 @@
 }
 
 body{
-    font-family: Lato, sans-serif;
+    font-family: Lato;
+    color: #fafafa;
+    background-color: #777777;
+}
+/**/
+/*-------------------------- Header */
+.header-banner {
+    line-height: 100px;
+    font-family: Oswald, sans-serif;
+    background-color: #222222;
+    overflow: hidden;
+    padding-right: 20px;
+}
+
+h2 {
+    font-family: Oswald;
+/*    text-transform: uppercase;*/
+    letter-spacing: 4px;
+    color: #fafafa;
+    padding-left: 20px;
+}
+
+#logo {
+    float: left;
+    font-size: 350%;
+
+}
+
+
+/*--------------------------- Nav Menu */
+.topnav {
+    line-height: 30px;
+    background-color: #444444;
+    overflow: hidden;
+    float: right;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.topnav a {
+    float: left;
+    color: inherit;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*active and hover color must be the same per menu item*/
+/*HOME*/
+#home-menu:hover {
+    background-color: #F6BB46;
     color: #777777;
 }
 
-#logo{
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
+.topnav a.home-active {
+    background-color: #F6BB46;
+    color: #777777;
 }
 
-/* navigation links */
-
-#menu{
-    font-size: 110%;
-    letter-spacing: 4px;
+/*OUR CATS*/
+#ourcats-menu:hover {
+    background-color: #29DFF7;
+    color: #777777;
 }
 
-#logo, #menu{
-    line-height: 75px;
+.topnav a.ourcats-active {
+    background-color: #29DFF7;
+    color: #777777;
 }
 
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
+/*ADOPT*/
+#adopt-menu:hover {
+    background-color: #A3CDB6;
+    color: #777777;
 }
 
-#menu a {
-    text-decoration: none;
-    color: inherit;
+.topnav a.adopt-active {
+  background-color: #A3CDB6;
+  color: #777777;
 }
 
-#menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+/*FIND US*/
+#findus-menu:hover {
+    background-color: #F2DC6B;
+    color: #777777;
 }
 
-.active{
-    border-bottom: 1px solid #3a3a3a;
-}
-
-/* headings and logo */
-
-h1, h2{
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
+.topnav a.findus-active {
+    background-color: #F2DC6B;
+    color: #777777;
 }
 
 /* Hero image and cover text */
@@ -173,135 +220,6 @@ h1, h2{
 .center-about-heading h2 {
     margin-bottom: 20px;
 }
-/*-------------------------- Header */
-
-/* .header {
-    line-height: 30px;
-    font-family: Oswald, sans-serif;
-} */
-
-
-/* ----------------------- Logo */
-
-/* .logo {
-    letter-spacing: 10px;
-    color: #252525;
-    float: left;
-    font-size: 200%;
-    margin-left: 30px;
-    background-color: lightgray;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 8px;
-    text-align: center;
-    position: relative;
-    
-} */
-
-.logo-lowlight {
-    color: #777777;
-}
-
-.logo-highlight {
-    color: #C4232A;
-}
-
-.logo-link {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-/*    z-index: 1;*/
-  }
-
- .logo a {
-    text-decoration: none;
-} 
-
-/*---------------------- navigation bar*/
-#topnav {
-    background-color: lightgray;
-    overflow: hidden;
-    float: right;
-    letter-spacing: 3px;
-    border-radius: 5px;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #777777;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/*active and hover color must be the same*/
-/*HOME*/
-#home-menu:hover {
-    background-color: #29DFF7;
-    color: #777777;
-}
-
-.topnav a.home-active {
-    background-color: #29DFF7;
-    color: #777777;
-}
-
-/*OUR CATS*/
-#ourcats-menu:hover {
-    background-color: #F6BB46;
-    color: #777777;
-}
-
-.topnav a.ourcats-active {
-    background-color: #F6BB46;
-    color: #777777;
-}
-
-/*ADOPT*/
-#adopt-menu:hover {
-    background-color: #A3CDB6;
-    color: #777777;
-}
-
-.topnav a.adopt-active {
-  background-color: #A3CDB6;
-  color: #777777;
-}
-
-/*FIND US*/
-#findus-menu:hover {
-    background-color: #F2DC6B;
-    color: #777777;
-}
-
-.topnav a.findus-active {
-    background-color: #F2DC6B;
-    color: #777777;
-}
-
-/* #main.cat {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-
-}
-
-.maincat {
-    height: 600px;
-    width: 100%;
-    background: url("../images/main-cat-image.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation-name: main-cat-zoom;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;
-} */
 
 /* Footer */
 
