@@ -305,23 +305,25 @@ h1, h2{
 
 /* Footer */
 
-footer {
-    height: 120px;
-    background-color: rgb(130,117,43);
-}
-
 .social-networks {
+    background-color: rgb(130,117,43);
+    color: darkgray;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-
+    position: fixed;
+  
 }
+
 
 .social-networks li {
     display: inline;
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    font-size: 150%;
+    margin: 0%;
+    padding: 2%;
     color: #3a3a3a;
 }
