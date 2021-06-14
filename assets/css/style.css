@@ -72,12 +72,12 @@ h2 {
 
 /*OUR CATS*/
 #ourcats-menu:hover {
-    background-color: #29DFF7;
+    background-color: #56B9F7;
     color: #777777;
 }
 
 .topnav a.ourcats-active {
-    background-color: #29DFF7;
+    background-color: #56B9F7;
     color: #777777;
 }
 
@@ -103,9 +103,9 @@ h2 {
     color: #777777;
 }
 
-/* Hero image and cover text */
+/* home: Hero image and cover text */
 
-#hero-outer{
+#hero-outer {
     height:600px;
     width: 100%;
     overflow: hidden;
@@ -113,7 +113,7 @@ h2 {
     background-color: #0F0E0F;
 }
 
-#hero-image{
+#hero-image { 
     height:600px;
     width: 100%;
     background: url("/assets/images/maincat.jpg") no-repeat center center;
@@ -172,48 +172,47 @@ h2 {
 }
 
 .grid {
-display: grid;
-grid-auto-flow: column;
-grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
 }
 
+/* .our-story-grid-div {
+    min-width: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+} */
+
 .grid > div {
-min-width: 100px;
-padding-left: 70px;
-padding-right: 70px;
-text-align: center;
+    min-width: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
 }
 
 #left-about{
     padding-top: 30px;
     padding-left: 50px;
-    /* width: 33%; */
+
     float: left;
 }
 
 #right-about {
     padding-top: 30px;
-    /* width: 33%;
-    float: right; */
 }
 
 #center-about {
     padding-top: 30px;
-    /* width: 33%;
-    margin: 0 auto; */
 }
 
 .left-about-heading {
-    /* width: 66%;
-    float: left; */
     line-height: 30px;
     clear: both;
     margin-bottom: 50px;
 }
 
 .center-about-heading {
-    /* width: 66%; */
-    /* text-align: center; */
     margin: 0 auto;
     line-height: 30px;
     clear: both;
@@ -222,15 +221,10 @@ text-align: center;
 } 
 
 .right-about-heading {
-    /* width: 66%;
-    float: left; */
     line-height: 30px;
     clear: both;
     margin-bottom: 50px;
 }
-
-
-
 
 .left-about-heading h2,
 .right-about-heading h2,
@@ -239,8 +233,58 @@ text-align: center;
     padding-left: 0px;
 }
 
-/* Footer */
+/* ------------------------------- our-cats  */
 
+#our-cats{
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+#hero-image-ourcats { 
+    height:600px;
+    width: 100%;
+    background: url("/assets/images/cat-blue.jpg") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+.cat-div {
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 720px;
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border: 1px solid #fafafa;
+}
+
+.our-cats-key {
+    text-align: right;
+}
+
+.our-cats-value {
+    text-align: left;
+}
+
+#our-cats div h3 {
+    text-align: left;
+}
+
+.our-cats-img {
+    width: 700px;
+    height: auto;
+}
+
+.our-cats-grid-div {
+    min-width: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/* Footer */
 
 .social-networks {
     background-color: rgb(130,117,43);
@@ -252,7 +296,6 @@ text-align: center;
     position: fixed;
   
 }
-
 
 .social-networks li {
     display: inline;
