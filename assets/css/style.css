@@ -11,7 +11,7 @@ body{
     color: #fafafa;
     background-color: #777777;
 }
-/**/
+
 /*-------------------------- Header */
 .header-banner {
     line-height: 100px;
@@ -120,7 +120,7 @@ h2 {
 
     /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
 }
 
@@ -130,7 +130,7 @@ h2 {
         transform: scale(1);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
 }
 
@@ -155,7 +155,7 @@ h2 {
     background-color: rgba(130,117,43, .5);
     position: absolute;
 
-    border-radius: 100px;
+    border-radius: 60px;
 
 }
 
@@ -171,57 +171,76 @@ h2 {
     font-size: 280%;
 }
 
+.grid {
+display: grid;
+grid-auto-flow: column;
+grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+}
+
+.grid > div {
+min-width: 100px;
+padding-left: 70px;
+padding-right: 70px;
+text-align: center;
+}
+
 #left-about{
     padding-top: 30px;
-    width: 33%;
+    padding-left: 50px;
+    /* width: 33%; */
     float: left;
 }
 
 #right-about {
     padding-top: 30px;
-    width: 33%;
-    float: right;
+    /* width: 33%;
+    float: right; */
 }
 
 #center-about {
     padding-top: 30px;
-    width: 33%;
-    margin: 0 auto;
+    /* width: 33%;
+    margin: 0 auto; */
 }
 
 .left-about-heading {
-    width: 66;
-    float: right;
+    /* width: 66%;
+    float: left; */
     line-height: 30px;
     clear: both;
     margin-bottom: 50px;
 }
 
-.right-about-heading {
-    width: 66%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-
 .center-about-heading {
-    width: 66%;
-    text-align: center;
+    /* width: 66%; */
+    /* text-align: center; */
     margin: 0 auto;
     line-height: 30px;
     clear: both;
     margin-bottom: 50px;
+
 } 
+
+.right-about-heading {
+    /* width: 66%;
+    float: left; */
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+
+
 
 .left-about-heading h2,
 .right-about-heading h2,
 .center-about-heading h2 {
     margin-bottom: 20px;
+    padding-left: 0px;
 }
 
 /* Footer */
+
 
 .social-networks {
     background-color: rgb(130,117,43);
@@ -245,3 +264,4 @@ h2 {
     padding: 2%;
     color: #3a3a3a;
 }
+
