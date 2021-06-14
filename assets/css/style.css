@@ -1,72 +1,265 @@
-#a {
-    text-decoration: none;
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
 }
+
+body{
+    font-family: Lato, sans-serif;
+    color: #777777;
+}
+
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+/* navigation links */
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#logo, #menu{
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+/* Hero image and cover text */
+
+#hero-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #0F0E0F;
+}
+
+#hero-image{
+    height:600px;
+    width: 100%;
+    background: url("/assets/images/maincat.jpg") no-repeat center center;
+
+    /* Animates zoom effect on loading the page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#cover-text, #cover-text h2 {
+    color: #FAC335;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    top: 100px;
+    left: 150px;
+    width: 300px;
+    height: 300px;
+
+    padding-top: 50px;
+    padding-left: 50px;
+
+    background-color: rgba(130,117,43, .7);
+    position: absolute;
+
+    border-radius: 100px;
+
+}
+
+/*-------------------------- Header */
+
+/* .header {
+    line-height: 30px;
+    font-family: Oswald, sans-serif;
+} */
+
 
 /* ----------------------- Logo */
 
-.logo {
-    font-family: Oswald, sans-serif;
+/* .logo {
     letter-spacing: 10px;
     color: #252525;
     float: left;
     font-size: 200%;
     margin-left: 30px;
-    /* box-shadow: 10px 10px 5px grey; */
     background-color: lightgray;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 8px;
     text-align: center;
     position: relative;
-}
+    
+} */
 
 .logo-lowlight {
-    color: #222222;
-}
-
-.logo-highlight {
     color: #777777;
 }
 
-  
+.logo-highlight {
+    color: #C4232A;
+}
+
 .logo-link {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 1;
+/*    z-index: 1;*/
   }
 
-/* ----------------------- Main Menu */
+ .logo a {
+    text-decoration: none;
+} 
 
-.logo,
-.main-menu {
-    line-height: 75px;
+/*---------------------- navigation bar*/
+#topnav {
+    background-color: lightgray;
+    overflow: hidden;
+    float: right;
+    letter-spacing: 3px;
+    border-radius: 5px;
 }
 
-
-
-/* .logo a {
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
+}
+
+/*active and hover color must be the same*/
+/*HOME*/
+#home-menu:hover {
+    background-color: #29DFF7;
+    color: #777777;
+}
+
+.topnav a.home-active {
+    background-color: #29DFF7;
+    color: #777777;
+}
+
+/*OUR CATS*/
+#ourcats-menu:hover {
+    background-color: #F6BB46;
+    color: #777777;
+}
+
+.topnav a.ourcats-active {
+    background-color: #F6BB46;
+    color: #777777;
+}
+
+/*ADOPT*/
+#adopt-menu:hover {
+    background-color: #A3CDB6;
+    color: #777777;
+}
+
+.topnav a.adopt-active {
+  background-color: #A3CDB6;
+  color: #777777;
+}
+
+/*FIND US*/
+#findus-menu:hover {
+    background-color: #F2DC6B;
+    color: #777777;
+}
+
+.topnav a.findus-active {
+    background-color: #F2DC6B;
+    color: #777777;
+}
+
+/* #main.cat {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.maincat {
+    height: 600px;
+    width: 100%;
+    background: url("../images/main-cat-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: main-cat-zoom;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
 } */
 
-.main-menu {
-    font-size: 110%;
-    letter-spacing: 4px;
+/* Footer */
+
+footer{
+    height: 150px;
 }
 
-.main-menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
+.social-networks{
+    text-align: center;
+
 }
 
-.main-menu a {
-    text-decoration: none;
-    color: inherit;
+.social-networks li{
+    display: inline;
 }
 
-.main-menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
