@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="To Love a Cat, is a Netherlands based cat adoption site, placing friendly felines in loving homes accross Europe.">
+        <meta name="keywords" content="cat, feline, pet, adopt, adoption, rescue, netherlands, europe">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+        <title>CAT lover</title>
+    </head>
+
+    <body>
+        <header class="header-banner">
+            <a href="index.html">
+                <h2 ID="logo">for LOVE of CATS</h2>
+            </a>
+            <nav>
+                <div class="topnav">
+                    <a id="home-menu" href="index.html">Home</a>
+                    <a id="ourcats-menu" href="our-cats.html">Our Cats</a>
+                    <a id="adopt-menu" class="adopt-active"href="adopt.html">I want one</a>
+                    <a id="findus-menu" href="findus.hrtml">Find Us</a>
+                </div>
+            </nav>
+
+        </header>
+
+        <section id="hero-outer">
+            <div id="hero-image-adopt"></div>
+            <div id="cover-text">
+                <h2>Take your time</h2>
+                <h3>If you cannot decide, choose two</h3>
+            </div>
+        </section>
+
+        <section class="adopt-section">
+            <h2 id="our-story">I want one <i class="fas fa-cat"></i> </h2>
+            <form id="adopt-form" action="https://formdump.codeinstitute.net/" class="adopt-form" method="POST">
+                <h2>I have made my choice! <i class="fas fa-paw"></i></h2>
+                    <label for="catname">Cat Name</label>
+                    <input id="catname" type="text" class="text-input" name="cat_name" required>
+                
+                    <label for="fname">First Name</label>
+                    <input id="fname" type="text" class="text-input" name="first_name" required>
+                
+                    <label for="lname">Last Name</label>
+                    <input id="lname" type="text" class="text-input" name="last_name" required>
+                
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" class="text-input" name="email_address" required>
+                    
+                    <label for="telephone">Telephone number</label>
+                    <input id="telephone" type="text" class="text-input" name="tel_number" required>
+
+                    <label>Is this your first cat? </label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="firstcatyes">Yes</label>
+                    <input d="firstcatyes" type="radio" name="first_cat" value="yes" required checked>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="firstcatno">No</label>
+                    <input id="firstcatno" type="radio" name="first_cat" value="no" required>
+                    
+                    <input type="submit" class="adopt-button" value="Adopt">
+            </form>
+        </section>
+
+        <footer class="footer-banner">
+            <ul class="social-networks">
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </footer>
+
+    </body>
+
+</html>
