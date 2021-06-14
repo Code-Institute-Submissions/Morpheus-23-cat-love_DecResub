@@ -105,13 +105,74 @@ h1, h2{
     padding-top: 50px;
     padding-left: 50px;
 
-    background-color: rgba(130,117,43, .7);
+    background-color: rgba(130,117,43, .5);
     position: absolute;
 
     border-radius: 100px;
 
 }
 
+/* Our Story */
+
+#our-story-section {
+    height: 400px;
+}
+
+#our-story {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.left-about-heading {
+    width: 66;
+    float: right;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 66%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+
+.center-about-heading {
+    width: 66%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+} 
+
+.left-about-heading h2,
+.right-about-heading h2,
+.center-about-heading h2 {
+    margin-bottom: 20px;
+}
 /*-------------------------- Header */
 
 /* .header {
@@ -244,20 +305,21 @@ h1, h2{
 
 /* Footer */
 
-footer{
-    height: 150px;
+footer {
+    height: 120px;
+    background-color: rgb(130,117,43);
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
