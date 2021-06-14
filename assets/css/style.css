@@ -131,27 +131,29 @@ h2 {
     }
 }
 
+
+/* -------------------------- Our Story */
+
 #cover-text-ourstory, #cover-text-ourstory h2 {
     color: #FAC335;
 }
 
 #cover-text-ourstory {
+    color: #FAC335;
     font-size: 130%;
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
     top: 100px;
     left: 150px;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 20px;
     background-color: rgba(130,117,43, .5);
     position: absolute;
     border-radius: 60px;
 }
-
-/* -------------------------- Our Story */
 
 #our-story-section {
     height: 1200px;
