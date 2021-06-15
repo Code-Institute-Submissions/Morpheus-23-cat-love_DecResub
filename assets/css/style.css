@@ -116,7 +116,7 @@ h2 {
 #hero-image { 
     height:600px;
     width: 100%;
-    background: url("/assets/images/maincat.jpg") no-repeat center center;
+    background: url("../images/maincat.jpg") no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 8s;
     animation-fill-mode: forwards;
@@ -130,7 +130,6 @@ h2 {
         transform: scale(1.2);
     }
 }
-
 
 /* -------------------------- Our Story */
 
