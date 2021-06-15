@@ -248,7 +248,7 @@ h2 {
 #hero-image-ourcats { 
     height:600px;
     width: 100%;
-    background: url("/assets/images/cat-blue.jpg") no-repeat center center;
+    background: url("../images/cat-blue.jpg") no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 8s;
     animation-fill-mode: forwards;
@@ -293,7 +293,7 @@ h2 {
 #hero-image-adopt { 
     height:600px;
     width: 100%;
-    background: url("/assets/images/cat-green.jpg") no-repeat center center;
+    background: url("../images/cat-green.jpg") no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 8s;
     animation-fill-mode: forwards;
@@ -361,7 +361,7 @@ h2 {
 #hero-image-findus { 
     height:600px;
     width: 100%;
-    background: url("/assets/images/findus-hero.jpg") no-repeat center center;
+    background: url("../images/findus-hero.jpg") no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 8s;
     animation-fill-mode: forwards;
