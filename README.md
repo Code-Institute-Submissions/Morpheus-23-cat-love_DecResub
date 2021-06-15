@@ -109,6 +109,6 @@ The site content is structured as follows:
 | Directory | Description |
 |---|---|
 | / | html files  |
-| /assets | non-html contet |
+| /assets | non-html content |
 | /assets/css | all style sheets |
 | /assets/images | all images |
