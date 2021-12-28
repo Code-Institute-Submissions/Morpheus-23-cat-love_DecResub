@@ -1,12 +1,14 @@
 # for LOVE of CATS (fLoC)
 
-for LOVE of CATS is a site for people who want to adopt a rescued cat. It enables people to browse through a list of cats that are available for adoption and gives information about each cat. It also allows people to send their contact information along with the cat they are interested in.
+for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for people who want to adopt a rescued cat. It enables people to browse through a list of cats that are available for adoption and gives information about each cat. It also allows people to send their contact information along with the cat they are interested in.
     
 ## Features
 
 ### Existing Features
 
 #### Common Page features
+
+
 
 - __Logo__
     - The logo is clickable and provides an easy way to navigate back to the home page.
