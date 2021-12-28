@@ -19,14 +19,21 @@ body{
     font-family: Oswald, sans-serif;
     background-color: #222222;
     overflow: hidden;
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 
-h2 {
+h1 {
     font-family: Oswald;
     letter-spacing: 4px;
     color: #fafafa;
     padding-left: 20px;
+}
+
+h2 {
+    font-family: Oswald;
+    letter-spacing: 3px;
+    color: #fafafa;
+    padding-left: 2px;
 }
 
 #logo {
@@ -44,7 +51,7 @@ h2 {
     float: right;
     letter-spacing: 3px;
     border-radius: 5px;
-    position: absolute;
+   /* position: absolute; */
     top: 40px;
     right: 0;
 }
@@ -116,9 +123,10 @@ h2 {
 #hero-image { 
     height:600px;
     width: 100%;
-    background: url("../images/maincat.jpg") no-repeat center center;
+    /* background: url("../images/maincat.jpg") no-repeat center center;  */
+    background: url("../images/maincat.jpg") center center/cover no-repeat;
     animation-name: hero-zoom;
-    animation-duration: 8s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
 }
 
@@ -248,9 +256,10 @@ h2 {
 #hero-image-ourcats { 
     height:600px;
     width: 100%;
-    background: url("../images/cat-blue.jpg") no-repeat center center;
+    /* background: url("../images/cat-blue.jpg") no-repeat center center; */
+    background: url("../images/cat-blue.jpg") center center/cover no-repeat;
     animation-name: hero-zoom;
-    animation-duration: 8s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
 }
 
@@ -293,9 +302,10 @@ h2 {
 #hero-image-adopt { 
     height:600px;
     width: 100%;
-    background: url("../images/cat-green.jpg") no-repeat center center;
+    /* background: url("../images/cat-green.jpg") no-repeat center center; */ 
+    background: url("../images/cat-green.jpg") center center/cover no-repeat;
     animation-name: hero-zoom;
-    animation-duration: 8s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
 }
 
@@ -361,9 +371,10 @@ h2 {
 #hero-image-findus { 
     height:600px;
     width: 100%;
-    background: url("../images/findus-hero.jpg") no-repeat center center;
+    /* background: url("../images/findus-hero.jpg") no-repeat center center; */
+    background: url("../images/findus-hero.jpg") center center/cover no-repeat;
     animation-name: hero-zoom;
-    animation-duration: 8s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
 }
 
