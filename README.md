@@ -43,24 +43,39 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
     - For the launch of the website the following critical pages should form part of the first release:
         - Our Story page, providing basic information about fLoC and the purpose of the website;
         - Our Cats page, introducing the cats currently available for adoption;
-        - Adoption request page, enabling potentional adopters to apply for the adoption of a specifically selected cat, from the Our Cats page;
-        - Find Us page, enabling potental adopters, collaborators and general public who may have information about cats needing rescue to make contact with fLoC.
+        - Adoption request page, enabling potential adopters to apply for the adoption of a specifically selected cat, from the Our Cats page;
+        - Find Us page, enabling potential adopters, collaborators, and the general public who may have information about cats needing rescue to make contact with fLoC.
 
-- Sprint 2: future specifications intended for release within 6 - 8 weeks from website launch:
+- Sprint 2: future specifications intended for release within 6 - 8 weeks from website launch
     - For the next release, the following pages should be added:
-        - Rescue success stories, making provision for messages and photographs to be submitted to fLoC and published by fLoC following administrator approval in an effort to motivate potential adoptees or persons needing to surrender their cat to contact fLoC;
+        - Rescue success stories, making provision for messages and photographs to be submitted to fLoC and published by fLoC following administrator approval to motivate potential adoptees or persons needing to surrender their cat to contact fLoC;
 
 - Sprint 3
     - For the following release, the following pages should be added:
         - Emergency contact page, setting out contact details of rescuers and/or organisations that have agreed to collaborate efforts and are willing to stand in if/when fLoC cannot be reached in case of an emergency rescue;
 
-- Sprint 4
-    - For the fourth release, the following pages should be considered / developed;
-        - Video footage, photographs and stories documenting rescue efforts with or without collaborations, provided the required consents and legal waivers have been obtained from any and all participants;
-        - Donation / sponsor requests;
+- Future sprints:
+    - For further releases, the following pages should be considered/developed;
+        - Video footage, photographs, and stories documenting rescue efforts with or without collaborations, provided the required consents and legal waivers have been obtained from any and all participants;
+        - Donation / sponsor requests and/or acknowledgements;
         - Product endorsement possibilities; 
+        - Stories from rescuers setting out the challenges in rescuing and finding suitable homes for cats;
+        - FAQ - frequently asked questions addressing various questions and concerns as obtained from market research conducted;
 
 
+### Structure
+
+- The purpose of the website is to attract potential cat adopters, thus helping feral and/or homeless cats find good homes. The website is kept fairly simple and very easy to navigate, ensuring a positive user experience.  The structure was developed with that in mind.
+- The initial website consists of four pages:
+    - Our Story
+    - Our Cats
+    - Adoption request
+    - Find us
+- The initial pages all have the following structure:
+    - Logo: All the pages have a clickable logo which provides for easy navigation back to the home page;
+    - Navigation bar: Located on each page enabling the user to easily locate it and navigate the site;
+    - Hero Images: Each page has a different hero image that uses a zoom animation and each page has a colour theme, which theme matches the clickable navigation bar item;
+    - Footer: Pinned at the bottom of each page and contains social media links for easy sharing of fLoC efforts and experiences.
 
 
 
