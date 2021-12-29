@@ -388,10 +388,33 @@ h2 {
 
 /* ---------------------- Footer */
 
+footer.footer-banner {
+    height: 130px;
+    background-color: #222222;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 2%;
+    padding: 4%;
+    color: #fafafa;
+}
+
+
+/*
+
 .footer-banner.social-networks {
     background-color: #222222;
     color: #fafafa;
-    /* left: 0; */
+    left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -404,7 +427,9 @@ h2 {
 
 .social-networks i {
     font-size: 150%;
-    margin: 0%;
-    padding: 2%;
+    margin: 2%;
+    padding: 4%;
     color: #fafafa;
 }
+ */
+ 

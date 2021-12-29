@@ -8,11 +8,11 @@
 ### User stories
 
 - First Time User
-    - As a First Time User, I want the home screen to entice me to indulge my curiosity about adopting a rescued cat.
-    - As a First Time User, I want the home screen to indicate the navigation possibilities of the site.
+    - As a First Time User, I want the home page to entice me to indulge my curiosity about adopting a rescued cat.
+    - As a First Time User, I want each page to indicate the navigation possibilities of the site.
     - As a First Time User, I want to find the website easy to navigate and move between the pages of the site.
     - As a First Time User, I want the site to provide information about the background/backstory of the site owner.
-    - As a First Time User, I want to be able to browse through the list of available cats and read about their characteristics and special needs, if any.
+    - As a First Time User, I want to be able to browse through the list of available cats and read about their characteristics and special needs, if any
     - As a First Time User, I want to be able to apply for the adoption of a cat.
     - As a First Time User, I want to easily find the contact details of the site owner.
 
@@ -44,7 +44,7 @@
         - Adoption request page, enabling potential adopters to apply for the adoption of a specifically selected cat, from the Our Cats page;
         - Find Us page, enabling potential adopters, collaborators, and the general public who may have information about cats needing rescue to make contact with fLoC.
 
-- Release 2: future specifications intended for release within 6 - 8 weeks from website launch
+- Release 2: future specifications intended for release following website launch
     - For the next release, the following pages should be added:
         - Rescue success stories, making provision for messages and photographs to be submitted to fLoC and published by fLoC following administrator approval to motivate potential adoptees or persons needing to surrender their cat to contact fLoC;
 
@@ -54,7 +54,7 @@
         - Volunteer application page, providing for a potential volunteer to submit an online photograph, a cv and a cover letter.
 
 - Future releases:
-    - For further releases, the following pages should be considered/developed;
+    - For future releases, the following pages should be considered/developed;
         - Video footage, photographs, and stories documenting rescue efforts with or without collaborations, provided the required consents and legal waivers have been obtained from any and all participants;
         - Donation / sponsor requests and/or acknowledgements;
         - Product endorsement possibilities; 
@@ -63,7 +63,8 @@
 
 ### Structure
 
-- The purpose of the website is to attract potential cat adopters, thus helping feral and/or homeless cats find good homes. The website is kept fairly simple and very easy to navigate, ensuring a positive user experience.  The structure was developed with that in mind.
+- The purpose of the website is to attract potential cat adopters, thus helping feral and/or homeless cats find good homes. 
+- The website is kept fairly simple and very easy to navigate, ensuring a positive user experience.  The structure was developed with that in mind.
 - The initial website consists of four pages:
     - Our Story
     - Our Cats
@@ -258,33 +259,59 @@
 ### Testing User Stories from the UX Section
 
 - First Time User
-    - As a First Time User, I want the home screen to entice me to indulge my curiosity about adopting a rescued cat.
-        * 
-    - As a First Time User, I want the home screen to indicate the navigation possibilities of the site.
-        * 
+    - As a First Time User, I want the home page to entice me to indulge my curiosity about adopting a rescued cat.
+        * Each page has zooming hero image that holds the attention of the user
+        * Each page has a colour theme that is consistent for that page
+
+    - As a First Time User, I want each page to indicate the navigation possibilities of the site.
+        * The Home page displays the navigation bar at the top of the page
+        * The Our Cats page displays the navigation bar at the top of the page
+        * The I Want One page displays the navigation bar at the top of the page
+        * The Find Us page displays the navigation bar at the top of the page
+
     - As a First Time User, I want to find the website easy to navigate and move between the pages of the site.
-        * 
+        * The navigation buttons highlight when the mouse pointer hovers over them
+        * The behaviour of the navigation buttons is consistent across all pages
+
     - As a First Time User, I want the site to provide information about the background/backstory of the site owner.
-        * 
+        * The Home page contains the Our Story section
+        * The Our Story section contains relevant subsections
+
     - As a First Time User, I want to be able to browse through the list of available cats and read about their characteristics and special needs, if any.
-        * 
+        * The Our Cats page displays a list of available cats
+        * Each item in the list displays the following information:
+            - Picture of the cat
+            - Age
+            - Gender
+            - Neutered
+            - Personality
+            - Special needs (only if applicable)
+
     - As a First Time User, I want to be able to apply for the adoption of a cat.
-        * 
+        * The I Want One page displays the adoption form
+        * On the adoption form:
+            - The Cat Name is a required field
+            - The First Name is a required field
+            - The Last Name is a required field
+            - The Email Address is a required field
+            - The Email Address format is validated
+            - The Telephone Number is a required field
+            - The 'Is this your first cat' field defaults to Yes
+            - The Adopt button validates the user input based on these rules
+            - The Adopt button submits the form after validation 
+
     - As a First Time User, I want to easily find the contact details of the site owner.
-        * 
- 
+        * The Find Us page shows the Office hours
+        * The Find Us page shows the address information
+        * The Find Us page shows the Contact Us information
+
 - Returning User
     - As a Returning User, I want to see new cats available for adoption.
-        * not test ready yet, as this will only form part of a further sprint/release
+        * Not implemented yet. This will be part of a future release.
     - As a Returning User, I want to read about success stories of adopted cats, whether rescued or rehomed.
-        * not test ready yet, as this will only form part of a further sprint/release
+        * Not implemented yet. This will be part of a future release.
     - As a Returning User, I want to read about collaborations with other rescue organisations, thus growing the rescue and rehoming efforts.
-        * not test ready yet, as this will only form part of a further sprint/release
-
-
-
-
-
+        * Not implemented yet. This will be part of a future release.
 
 ### Validator testing
 
