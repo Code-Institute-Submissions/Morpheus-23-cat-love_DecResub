@@ -20,6 +20,26 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
     - As a Returning Visitor, I want to read about success stories of adopted cats, whether rescued or rehomed.
     - As a Returning Visitor, I want to read about collaborations with other rescue organisations, thus growing the rescue and rehoming efforts.
 
+### Strategy
+ - The main aim and focus of fLoC are to establish a reputation as a reputable rescuer that constantly rescues feral and/or homeless cats and find safe and loving homes where the cats can happily live out the remainder of their 9 lives.
+ - For fLoC it is of utmost importance to:
+        - rescue cats living on the streets / from vulnerable situations;
+        - rehabilitate/socialise the cats before opening them up to adoption;
+        - find good and loving homes for the adoptable cats;
+        - find foster homes to help rehabilitate/socialise cats/kittens until they are ready to be adopted;
+        - find other rescuers, whether individuals and/or organisations to collaborate efforts to enable more cats to be rescued from the streets / undesirable situations;
+        - create an online presence to enable other rescuers, potential foster homes, potential adopters to make contact with fLoC to help as many cats as possible;
+- For a further release:
+        - Once fLoC is properly established and growing in efforts, the intention is to attract donors such as companies producing and/or selling cat food, treats, accessories, medical supplies and supplements. 
+        - When fLoC has a well-established following, it may consider endorsing products for cats, provided that the production and distribution of said products are in line with the aim of fLoC, thus no harm to cats in any way or form.  No harm to any animal during the product research, product development, production, or distribution of any products will be tolerated/endorsed.
+
+
+
+
+
+
+
+
 
     
 ## Features
