@@ -77,7 +77,19 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
     - Hero Images: Each page has a different hero image that uses a zoom animation and each page has a colour theme, which theme matches the clickable navigation bar item;
     - Footer: Pinned at the bottom of each page and contains social media links for easy sharing of fLoC efforts and experiences.
 
+### Skeleton
 
+- Considering the strategy, scope and structure the following wireframes were created:
+    - Desktop:
+        - Our Story
+        - Our Cats
+        - Adoption request
+        - Find us
+    - Mobile:
+      - Our Story
+        - Our Cats
+        - Adoption request
+        - Find us
 
 
 
