@@ -6,22 +6,20 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 
 ### User stories
 
--__First Time Visitor__
+- First Time User
+    - As a First Time User, I want the home screen to entice me to indulge my curiosity about adopting a rescued cat.
+    - As a First Time User, I want the home screen to indicate the navigation possibilities of the site.
+    - As a First Time User, I want to find the website easy to navigate and move between the pages of the site.
+    - As a First Time User, I want the site to provide information about the background/backstory of the site owner.
+    - As a First Time User, I want to be able to browse through the list of available cats and read about their characteristics and special needs, if any.
+    - As a First Time User, I want to be able to apply for the adoption of a cat.
+    - As a First Time User, I want to easily find the contact details of the site owner.
+    - As a First Time User, I want to establish that the intention of the site owner is aligned with the safe and responsible rescue efforts of homeless cats.
 
-    - As a First Time Visitor, I want the home screen to entice me to further indulge my curiosity about adopting a rescued cat.
-    - As a First Time Visitor, I want the home screen to clearly indicate the navigation possibilities of the site.
-    - As a First Time Visitor, I want to find the website easy to navigate and move between the pages of the site.
-    - As a First Time Visitor, I want the site to provide information about the background/backstory of the site owner.
-    - As a First Time Visitor, I want to be able to browse through the list of available cats and read about their characteristics and special needs, if any.
-    - As a First Time Visitor, I want to be able to apply for the adoption of a cat.
-    - As a First Time Visitor, I want to easily find the contact details of the site owner.
-    - As a First Time Visitor, I want to establish that the intention of the site owner is clearly aligned with the safe and responsible rescue efforts of homeless cats.
-
--__Returning Visitor__
-
-    - As a Returning Visitor, I want to see new cats available for adoption.
-    - As a Returning Visitor, I want to read about success stories of adopted cats, whether rescued or rehomed.
-    - As a Returning Visitor, I want to read about collaborations with other rescue organisations, thus growing the rescue and rehoming efforts.
+- Returning User
+    - As a Returning User, I want to see new cats available for adoption.
+    - As a Returning User, I want to read about success stories of adopted cats, whether rescued or rehomed.
+    - As a Returning User, I want to read about collaborations with other rescue organisations, thus growing the rescue and rehoming efforts.
 
 ### Strategy
 
