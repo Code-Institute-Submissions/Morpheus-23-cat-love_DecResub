@@ -93,6 +93,23 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 
 ### Surface
 
+- Screenshots reflecting the following pages:
+    - Desktop:
+        - ![Our Story](assets/readme/homepage-desktop.jpg)
+        - Our Cats
+        - Adoption request
+        - Find us
+    - Tablet (both horisontal and vertical views):
+        - Our Story
+        - Our Cats
+        - Adoption request
+        - Find us
+    - Mobile:
+        - Our Story
+        - Our Cats
+        - Adoption request
+        - Find us
+
 add screenshots 
 
 discuss colour, font, consistent patterns, background colour / contrasts used
