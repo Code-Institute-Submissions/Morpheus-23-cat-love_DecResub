@@ -95,7 +95,7 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 
 - Screenshots reflecting the following pages:
     - Desktop:
-        - ![Our Story](assets/readme/homepage-desktop.jpg)
+        - ![OurStory](../assets/readme/homepage-desktop.png)
         - Our Cats
         - Adoption request
         - Find us
