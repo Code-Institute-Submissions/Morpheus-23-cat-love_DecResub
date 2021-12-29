@@ -5,7 +5,9 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 ## User Experience (UX)
 
 ### User stories
+
 -__First Time Visitor__
+
     - As a First Time Visitor, I want the home screen to entice me to further indulge my curiosity about adopting a rescued cat.
     - As a First Time Visitor, I want the home screen to clearly indicate the navigation possibilities of the site.
     - As a First Time Visitor, I want to find the website easy to navigate and move between the pages of the site.
@@ -16,11 +18,13 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
     - As a First Time Visitor, I want to establish that the intention of the site owner is clearly aligned with the safe and responsible rescue efforts of homeless cats.
 
 -__Returning Visitor__
+
     - As a Returning Visitor, I want to see new cats available for adoption.
     - As a Returning Visitor, I want to read about success stories of adopted cats, whether rescued or rehomed.
     - As a Returning Visitor, I want to read about collaborations with other rescue organisations, thus growing the rescue and rehoming efforts.
 
 ### Strategy
+
  - The main aim and focus of fLoC are to establish a reputation as a reputable rescuer that constantly rescues feral and/or homeless cats and find safe and loving homes where the cats can happily live out the remainder of their 9 lives.
  - For fLoC it is of utmost importance to:
         - rescue cats living on the streets / from vulnerable situations;
@@ -30,10 +34,31 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
         - find other rescuers, whether individuals and/or organisations to collaborate efforts to enable more cats to be rescued from the streets / undesirable situations;
         - create an online presence to enable other rescuers, potential foster homes, potential adopters to make contact with fLoC to help as many cats as possible;
 - For a further release:
-        - Once fLoC is properly established and growing in efforts, the intention is to attract donors such as companies producing and/or selling cat food, treats, accessories, medical supplies and supplements. 
+        - Once fLoC is well established and growing in efforts, the intention is to attract donors such as companies producing and/or selling cat food, treats, accessories, medical supplies and supplements. 
         - When fLoC has a well-established following, it may consider endorsing products for cats, provided that the production and distribution of said products are in line with the aim of fLoC, thus no harm to cats in any way or form.  No harm to any animal during the product research, product development, production, or distribution of any products will be tolerated/endorsed.
 
+### Scope
 
+- Sprint 1: the functional specifications
+    - For the launch of the website the following critical pages should form part of the first release:
+        - Our Story page, providing basic information about fLoC and the purpose of the website;
+        - Our Cats page, introducing the cats currently available for adoption;
+        - Adoption request page, enabling potentional adopters to apply for the adoption of a specifically selected cat, from the Our Cats page;
+        - Find Us page, enabling potental adopters, collaborators and general public who may have information about cats needing rescue to make contact with fLoC.
+
+- Sprint 2: future specifications intended for release within 6 - 8 weeks from website launch:
+    - For the next release, the following pages should be added:
+        - Rescue success stories, making provision for messages and photographs to be submitted to fLoC and published by fLoC following administrator approval in an effort to motivate potential adoptees or persons needing to surrender their cat to contact fLoC;
+
+- Sprint 3
+    - For the following release, the following pages should be added:
+        - Emergency contact page, setting out contact details of rescuers and/or organisations that have agreed to collaborate efforts and are willing to stand in if/when fLoC cannot be reached in case of an emergency rescue;
+
+- Sprint 4
+    - For the fourth release, the following pages should be considered / developed;
+        - Video footage, photographs and stories documenting rescue efforts with or without collaborations, provided the required consents and legal waivers have been obtained from any and all participants;
+        - Donation / sponsor requests;
+        - Product endorsement possibilities; 
 
 
 
