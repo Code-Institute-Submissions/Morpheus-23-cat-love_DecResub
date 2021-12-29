@@ -86,25 +86,25 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
         - Adoption request
         - Find us
     - Mobile:
-      - Our Story
+        - Our Story
         - Our Cats
         - Adoption request
         - Find us
 
 
+### Surface
 
-    
+
+
 ## Features
 
 ### Existing Features
 
 #### Common Page features
 
-
-
 - __Logo__
-    - The logo is clickable and provides an easy way to navigate back to the home page.
-    - It is consistently located on each page allowing the user to easily find it.
+    - The logo is clickable and provides an easy way to navigate back to the home page
+    - It is consistently located on each page allowing the user to easily find it
   
 - __Navigation Bar__
     - Consistently located on each page allowing an intuitive user experience
@@ -170,6 +170,8 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 - CSS
     - One validation failure in the styles.css file reported by [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
     - This issue will be fixed in the next release
+- Google Chrome Lighthouse
+    - 
 
 ### Unfixed Bugs
 
