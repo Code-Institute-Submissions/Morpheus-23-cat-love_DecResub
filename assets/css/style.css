@@ -51,10 +51,9 @@ h2 {
     float: right;
     letter-spacing: 3px;
     border-radius: 5px;
-   /* position: absolute; */
-    position: relative;
+    position: absolute;
     top: 40px;
-    right: 0;
+    right: 5px;
 }
 
 .topnav a {
