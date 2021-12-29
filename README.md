@@ -79,31 +79,68 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 ### Skeleton
 
 - Considering the strategy, scope and structure the following wireframes were created:
+
     - Desktop:
-        - Our Story ![OurStory](./readme/wireframe-home-desktop.png)
-        - Our Cats ![OurCats](./readme/wireframe-ourcats-desktop.png)
-        - I want one ![IWantOne](./readme/wireframe-iwantone-desktop.png)
-        - Find us ![ContactPage](./readme/wireframe-findus-desktop.png)
+
+        - Our Story 
+            ![OurStory](./readme/wireframe-home-desktop.png)
+
+        - Our Cats 
+            ![OurCats](./readme/wireframe-ourcats-desktop.png)
+
+        - I want one 
+            ![IWantOne](./readme/wireframe-iwantone-desktop.png)
+
+        - Find us 
+            ![ContactPage](./readme/wireframe-findus-desktop.png)
+
     - Mobile:
-        - Our Story ![OurStory](./readme/wireframe-home-mobile.png)
-        - Our Cats ![OurCats](./readme/wireframe-ourcats-mobile.png)
-        - I want one ![IWantOne](./readme/wireframe-iwantone-mobile.png)
-        - Find us ![ContactPage](./readme/wireframe-findus-mobile.png)
+
+        - Our Story
+            ![OurStory](./readme/wireframe-home-mobile.png)
+
+        - Our Cats
+            ![OurCats](./readme/wireframe-ourcats-mobile.png)
+
+        - I want one
+            ![IWantOne](./readme/wireframe-iwantone-mobile.png)
+
+        - Find us
+            ![ContactPage](./readme/wireframe-findus-mobile.png)
 
 
 ### Surface
 
 - Screenshots reflecting the following pages:
+
     - Desktop:
-        - Home page ![OurStory](./readme/homepage-desktop.png)
-        - Our Cats ![OurCats](./readme/catspage-desktop.png)
-        - I want one ![IWantOne](./readme/adoptpage-desktop.png)
-        - Find us ![ContactPage](./readme/contactpage-desktop.png)
+
+        - Home page
+            ![OurStory](./readme/homepage-desktop.png)
+
+        - Our Cats 
+            ![OurCats](./readme/catspage-desktop.png)
+
+        - I want one 
+            ![IWantOne](./readme/adoptpage-desktop.png)
+
+        - Find us
+            ![ContactPage](./readme/contactpage-desktop.png)
+
     - Tablet (both horisontal and vertical views):
-        - Home page ![OurStory](./readme/homepage-tablet-horisontal.png) and ![OurStory](./readme/homepage-tablet-vertical.png)
-        - Our Cats ![OurCats](./readme/catspage-tablet-horisontal.png) and ![OurCats](./readme/catspage-tablet-vertical.png) 
-        - I want one ![IWantOne](./readme/adoptpage-tablet-horisontal.png) and ![IWantOne](./readme/adoptpage-tablet-vertical.png) 
-        - Find us ![ContactPage](./readme/contactpage-tablet-horisontal.png) and ![ContactPage](./readme/contactpage-tablet-vertical.png)
+
+        - Home page 
+            ![OurStory](./readme/homepage-tablet-horisontal.png) and ![OurStory](./readme/homepage-tablet-vertical.png)
+
+        - Our Cats 
+            ![OurCats](./readme/catspage-tablet-horisontal.png) and ![OurCats](./readme/catspage-tablet-vertical.png) 
+
+        - I want one 
+            ![IWantOne](./readme/adoptpage-tablet-horisontal.png) and ![IWantOne](./readme/adoptpage-tablet-vertical.png) 
+
+        - Find us 
+            ![ContactPage](./readme/contactpage-tablet-horisontal.png) and ![ContactPage](./readme/contactpage-tablet-vertical.png)
+
     - Mobile:
         - Home page
         - Our Cats
