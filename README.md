@@ -2,6 +2,7 @@
 
 for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for people who want to adopt a rescued cat. It enables people to browse through a list of cats that are available for adoption and gives information about each cat. It also allows people to send their contact information along with the cat they are interested in.
 
+
 ## User Experience (UX)
 
 ### User stories
@@ -14,7 +15,6 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
     - As a First Time User, I want to be able to browse through the list of available cats and read about their characteristics and special needs, if any.
     - As a First Time User, I want to be able to apply for the adoption of a cat.
     - As a First Time User, I want to easily find the contact details of the site owner.
-    - As a First Time User, I want to establish that the intention of the site owner is aligned with the safe and responsible rescue efforts of homeless cats.
 
 - Returning User
     - As a Returning User, I want to see new cats available for adoption.
@@ -23,17 +23,17 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 
 ### Strategy
 
- - The main aim and focus of fLoC are to establish a reputation as a reputable rescuer that constantly rescues feral and/or homeless cats and find safe and loving homes where the cats can happily live out the remainder of their 9 lives.
+ - The main aim and focus of fLoC are to establish a reputation as a reputable/trustworthy rescuer that constantly rescues feral and/or homeless cats and find safe and loving homes where the cats can happily live out the remainder of their 9 lives.
  - For fLoC it is of utmost importance to:
-        - rescue cats living on the streets / from vulnerable situations;
-        - rehabilitate/socialise the cats before opening them up to adoption;
-        - find good and loving homes for the adoptable cats;
-        - find foster homes to help rehabilitate/socialise cats/kittens until they are ready to be adopted;
-        - find other rescuers, whether individuals and/or organisations to collaborate efforts to enable more cats to be rescued from the streets / undesirable situations;
-        - create an online presence to enable other rescuers, potential foster homes, potential adopters to make contact with fLoC to help as many cats as possible;
+    - rescue cats living on the streets / from vulnerable situations;
+    - rehabilitate/socialise the cats before opening them up to adoption;
+    - find good and loving homes for the adoptable cats;
+    - find foster homes to help rehabilitate/socialise cats/kittens until they are ready to be adopted;
+    - find other rescuers, whether individuals and/or organisations to collaborate efforts to enable more cats to be rescued from the streets / undesirable situations;
+    - create an online presence to enable other rescuers, potential foster homes, potential adopters to make contact with fLoC to help as many cats as possible;
 - For a further release:
-        - Once fLoC is well established and growing in efforts, the intention is to attract donors such as companies producing and/or selling cat food, treats, accessories, medical supplies and supplements. 
-        - When fLoC has a well-established following, it may consider endorsing products for cats, provided that the production and distribution of said products are in line with the aim of fLoC, thus no harm to cats in any way or form.  No harm to any animal during the product research, product development, production, or distribution of any products will be tolerated/endorsed.
+    - Once fLoC is well established and growing in efforts, the intention is to attract donors such as companies producing and/or selling cat food, treats, accessories, medical supplies and supplements. 
+    - When fLoC has a well-established following, it may consider endorsing products for cats, provided that the production and distribution of said products are in line with the aim of fLoC, thus no harm to cats in any way or form.  No harm to any animal during the product research, product development, production, or distribution of any products will be tolerated/endorsed.
 
 ### Scope
 
@@ -48,7 +48,7 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
     - For the next release, the following pages should be added:
         - Rescue success stories, making provision for messages and photographs to be submitted to fLoC and published by fLoC following administrator approval to motivate potential adoptees or persons needing to surrender their cat to contact fLoC;
 
-- Sprint 3
+- Sprint 3:
     - For the following release, the following pages should be added:
         - Emergency contact page, setting out contact details of rescuers and/or organisations that have agreed to collaborate efforts and are willing to stand in if/when fLoC cannot be reached in case of an emergency rescue;
         - Volunteer application page, providing for a potential volunteer to submit an online photograph, a cv and a cover letter.
@@ -60,7 +60,6 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
         - Product endorsement possibilities; 
         - Stories from rescuers setting out the challenges in rescuing and finding suitable homes for cats;
         - FAQ - frequently asked questions addressing various questions and concerns as obtained from market research conducted;
-
 
 ### Structure
 
@@ -83,73 +82,102 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
     - Desktop:
 
         - Our Story 
+
             ![OurStory](./readme/wireframe-home-desktop.png)
 
         - Our Cats 
+
             ![OurCats](./readme/wireframe-ourcats-desktop.png)
 
         - I want one 
+
             ![IWantOne](./readme/wireframe-iwantone-desktop.png)
 
         - Find us 
+
             ![ContactPage](./readme/wireframe-findus-desktop.png)
 
     - Mobile:
 
         - Our Story
+
             ![OurStory](./readme/wireframe-home-mobile.png)
 
         - Our Cats
+
             ![OurCats](./readme/wireframe-ourcats-mobile.png)
 
         - I want one
+
             ![IWantOne](./readme/wireframe-iwantone-mobile.png)
 
         - Find us
-            ![ContactPage](./readme/wireframe-findus-mobile.png)
 
+            ![ContactPage](./readme/wireframe-findus-mobile.png)
 
 ### Surface
 
+- The clickable logo and navigation bar is consistently located on each page, allowing an intuitive user experience
+- Each page has a unique colour theme and the navigation hover and active page colour matches the target page's theme
+- The selected navigation menu item background colour indicates which page is displayed
+- The footer is pinned at the bottom of each page, enabling easy access to social media links for fast sharing or communication
+
 - Screenshots reflecting the following pages:
 
-    - Desktop:
+    - For desktop:
 
         - Home page
+
             ![OurStory](./readme/homepage-desktop.png)
 
         - Our Cats 
+
             ![OurCats](./readme/catspage-desktop.png)
 
         - I want one 
+
             ![IWantOne](./readme/adoptpage-desktop.png)
 
         - Find us
+
             ![ContactPage](./readme/contactpage-desktop.png)
 
-    - Tablet (both horisontal and vertical views):
+    - For tablet (both horisontal and vertical views):
 
         - Home page 
+
             ![OurStory](./readme/homepage-tablet-horisontal.png) and ![OurStory](./readme/homepage-tablet-vertical.png)
 
         - Our Cats 
+
             ![OurCats](./readme/catspage-tablet-horisontal.png) and ![OurCats](./readme/catspage-tablet-vertical.png) 
 
         - I want one 
+
             ![IWantOne](./readme/adoptpage-tablet-horisontal.png) and ![IWantOne](./readme/adoptpage-tablet-vertical.png) 
 
         - Find us 
+
             ![ContactPage](./readme/contactpage-tablet-horisontal.png) and ![ContactPage](./readme/contactpage-tablet-vertical.png)
 
-    - Mobile:
+    - For mobile:
+
         - Home page
-        - Our Cats
-        - I want one
+
+            ![OurStory](./readme/homepage-mobile.png)
+
+        - Our Cats 
+
+            ![OurCats](./readme/catspage-mobile.png)
+
+        - I want one 
+
+            ![IWantOne](./readme/adoptpage-mobile.png)
+
         - Find us
 
+            ![ContactPage](./readme/contactpage-mobile.png)
 
-discuss colour, font, consistent patterns, background colour / contrasts used
-header and footers consistent on each page
 
 ## Features
 
@@ -192,6 +220,7 @@ header and footers consistent on each page
 - __Find Us page__
     - Provides operating hours, adress and contact information
 
+
 ## Testing
 
 ### Layout
@@ -217,6 +246,37 @@ header and footers consistent on each page
 
 * Each page has a unique colour theme and the navigation hover and active page colour matches the target page's theme
 * The selected navigation menu item background colour indicates which page is displayed
+
+### Testing User Stories from the UX Section
+
+- First Time User
+    - As a First Time User, I want the home screen to entice me to indulge my curiosity about adopting a rescued cat.
+        * 
+    - As a First Time User, I want the home screen to indicate the navigation possibilities of the site.
+        * 
+    - As a First Time User, I want to find the website easy to navigate and move between the pages of the site.
+        * 
+    - As a First Time User, I want the site to provide information about the background/backstory of the site owner.
+        * 
+    - As a First Time User, I want to be able to browse through the list of available cats and read about their characteristics and special needs, if any.
+        * 
+    - As a First Time User, I want to be able to apply for the adoption of a cat.
+        * 
+    - As a First Time User, I want to easily find the contact details of the site owner.
+        * 
+ 
+- Returning User
+    - As a Returning User, I want to see new cats available for adoption.
+        * not test ready yet, as this will only form part of a furter sprint/release
+    - As a Returning User, I want to read about success stories of adopted cats, whether rescued or rehomed.
+        * not test ready yet, as this will only form part of a furter sprint/release
+    - As a Returning User, I want to read about collaborations with other rescue organisations, thus growing the rescue and rehoming efforts.
+        * not test ready yet, as this will only form part of a furter sprint/release
+
+
+
+
+
 
 ### Validator testing
 
