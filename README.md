@@ -193,39 +193,39 @@
 
 #### Common Page features
 
-- __Logo__
+- Logo
     - The logo is clickable and provides an easy way to navigate back to the home page
     - It is consistently located on each page allowing the user to easily find it
   
-- __Navigation Bar__
+- Navigation Bar
     - Consistently located on each page allowing an intuitive user experience
     - Provides links to the Home, Selection, Adoption and Find Us pages
     - The active menu item is highlighted and themed according to it's target page
 
-- __Hero images__
+- Hero images
     - Each page contains a different hero image
     - Each hero image has a colour theme that matches the navigation bar item and the cover text
     - The hero images uses a zoom animation to draw the user into the page
 
-- __Footer__
+- Footer
     - Pinned at the bottom of the page
     - Contains social media links for fast sharing or communication
     
 #### Page specific features
 
-- __Our Story page__
+- Our Story page
     - Provides information about who fLoC is, what they do and why they do it
     
-- __Our Cats page__
+- Our Cats page
     - Allows the user to see a list of cats available for adoption
     - Shows a photo, the cat's name and other useful information about cat
     - Updated when new cats become available and existing cats are adopted
 
-- __Adoption request page__
+- Adoption request page
     - Allows the user to submit a request to adopt a specific cat
     - The user supplies all required fields allowing fLoC to to establish contact and start the process
     
-- __Find Us page__
+- Find Us page
     - Provides operating hours, adress and contact information
 
 
@@ -275,11 +275,11 @@
  
 - Returning User
     - As a Returning User, I want to see new cats available for adoption.
-        * not test ready yet, as this will only form part of a furter sprint/release
+        * not test ready yet, as this will only form part of a further sprint/release
     - As a Returning User, I want to read about success stories of adopted cats, whether rescued or rehomed.
-        * not test ready yet, as this will only form part of a furter sprint/release
+        * not test ready yet, as this will only form part of a further sprint/release
     - As a Returning User, I want to read about collaborations with other rescue organisations, thus growing the rescue and rehoming efforts.
-        * not test ready yet, as this will only form part of a furter sprint/release
+        * not test ready yet, as this will only form part of a further sprint/release
 
 
 
@@ -306,10 +306,24 @@
 
 ## Deployment
 
+### GitHub Pages
+
 - The site is deployed to GitHub pages. The steps to deploy were as follows:
-    - In the fLoC GitHub repository, navigate to the Settings tab and select the Pages 
+    - Log into GitHub and locate the fLoC GitHub repository, navigate to the Settings tab and select the Pages 
     - From the source section drop-down menu, select the Master Branch
 - The live link can be found here - [https://morpheus-23.github.io/cat-love/](https://morpheus-23.github.io/cat-love/)
+
+### Making a Clone
+
+- Log into GitHub and locate the fLoC GitHub repository
+- Click on the fLoC repository
+- Click on the Code button
+- Choose the HTTPS option, then click on the clipboard right of the URL
+- Then choose your IDE or editor of choice
+- Open a respository or create a new repository 
+- Open the terminal and type "git clone" and paste the URL copied above 
+    git clone https://github.com/Morpheus-23/cat-love.git
+- press enter and the clone will be created
 
 ## Unimplemented assessment criteria
 
@@ -333,4 +347,5 @@ The site content is structured as follows:
 | / | html files  |
 | /assets | non-html content |
 | /assets/css | all style sheets |
-| /assets/images | all images |
+| /assets/images | images used by the website |
+| /readme | images used by README.md file |
