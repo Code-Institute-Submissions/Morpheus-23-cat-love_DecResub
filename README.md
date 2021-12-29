@@ -1,6 +1,6 @@
 # for LOVE of CATS (fLoC)
 
-for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for people who want to adopt a rescued cat. It enables people to browse through a list of cats that are available for adoption and gives information about each cat. It also allows people to send their contact information along with the cat they are interested in.
+[for LOVE of CATS](https://morpheus-23.github.io/cat-love/) is a website for people who want to adopt a rescued cat. It enables people to browse through a list of cats that are available for adoption and gives information about each cat. It also allows people to send their contact information along with the cat they are interested in.
 
 
 ## User Experience (UX)
@@ -37,23 +37,23 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 
 ### Scope
 
-- Sprint 1: the functional specifications
+- Release 1: the functional specifications
     - For the launch of the website the following critical pages should form part of the first release:
         - Our Story page, providing basic information about fLoC and the purpose of the website;
         - Our Cats page, introducing the cats currently available for adoption;
         - Adoption request page, enabling potential adopters to apply for the adoption of a specifically selected cat, from the Our Cats page;
         - Find Us page, enabling potential adopters, collaborators, and the general public who may have information about cats needing rescue to make contact with fLoC.
 
-- Sprint 2: future specifications intended for release within 6 - 8 weeks from website launch
+- Release 2: future specifications intended for release within 6 - 8 weeks from website launch
     - For the next release, the following pages should be added:
         - Rescue success stories, making provision for messages and photographs to be submitted to fLoC and published by fLoC following administrator approval to motivate potential adoptees or persons needing to surrender their cat to contact fLoC;
 
-- Sprint 3:
+- Release 3:
     - For the following release, the following pages should be added:
         - Emergency contact page, setting out contact details of rescuers and/or organisations that have agreed to collaborate efforts and are willing to stand in if/when fLoC cannot be reached in case of an emergency rescue;
         - Volunteer application page, providing for a potential volunteer to submit an online photograph, a cv and a cover letter.
 
-- Future sprints:
+- Future releases:
     - For further releases, the following pages should be considered/developed;
         - Video footage, photographs, and stories documenting rescue efforts with or without collaborations, provided the required consents and legal waivers have been obtained from any and all participants;
         - Donation / sponsor requests and/or acknowledgements;
@@ -146,19 +146,27 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 
         - Home page 
 
-            ![OurStory](./readme/homepage-tablet-horisontal.png) and ![OurStory](./readme/homepage-tablet-vertical.png)
+            ![OurStory](./readme/homepage-tablet-horisontal.png)  
+            and  
+            ![OurStory](./readme/homepage-tablet-vertical.png)
 
         - Our Cats 
 
-            ![OurCats](./readme/catspage-tablet-horisontal.png) and ![OurCats](./readme/catspage-tablet-vertical.png) 
+            ![OurCats](./readme/catspage-tablet-horisontal.png)  
+            and  
+            ![OurCats](./readme/catspage-tablet-vertical.png) 
 
         - I want one 
 
-            ![IWantOne](./readme/adoptpage-tablet-horisontal.png) and ![IWantOne](./readme/adoptpage-tablet-vertical.png) 
+            ![IWantOne](./readme/adoptpage-tablet-horisontal.png)  
+            and  
+            ![IWantOne](./readme/adoptpage-tablet-vertical.png) 
 
         - Find us 
 
-            ![ContactPage](./readme/contactpage-tablet-horisontal.png) and ![ContactPage](./readme/contactpage-tablet-vertical.png)
+            ![ContactPage](./readme/contactpage-tablet-horisontal.png)  
+            and  
+            ![ContactPage](./readme/contactpage-tablet-vertical.png)
 
     - For mobile:
 
