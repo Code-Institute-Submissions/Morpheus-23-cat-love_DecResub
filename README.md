@@ -51,6 +51,7 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 - Sprint 3
     - For the following release, the following pages should be added:
         - Emergency contact page, setting out contact details of rescuers and/or organisations that have agreed to collaborate efforts and are willing to stand in if/when fLoC cannot be reached in case of an emergency rescue;
+        - Volunteer application page, providing for a potential volunteer to submit an online photograph, a cv and a cover letter.
 
 - Future sprints:
     - For further releases, the following pages should be considered/developed;
@@ -92,7 +93,10 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 
 ### Surface
 
+add screenshots 
 
+discuss colour, font, consistent patterns, background colour / contrasts used
+header and footers consistent on each page
 
 ## Features
 
@@ -175,7 +179,7 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 
 * See Validator testing error - Fixed in the next release
 * Content on 'Our Cats' and 'I want one' is not dynamically centered - Fixed in next release
-* Layout of cover text on hero images - Fixed in next release
+* Layout of cover text on hero images - Fixed in next release - done - double check !!
 
 ## Deployment
 
@@ -186,7 +190,7 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 
 ## Unimplemented assessment criteria
 
-* Alt text equivalents to cater for the visually impaired
+* Alt text equivalents to cater for the visually impaired - done - to double check !!
 * Layout changes for all screen sizes
 
 ## Content
@@ -195,6 +199,7 @@ for (LOVE of CATS)[https://morpheus-23.github.io/cat-love/] is a website for peo
 - All images were taken from [pixabay](https://pixabay.com/)
 - Some design ideas were taken from Love Running and Coders Coffeehouse
 - A lot of technical implementation information were taken from [W3Schools](www.w3schools.com)
+- mention JS code for using dev tools 
 
 ## Directory structure
 
