@@ -1,6 +1,6 @@
 # for LOVE of CATS (fLoC)
 
-[for LOVE of CATS](https://morpheus-23.github.io/cat-love/) is a website for people who want to adopt a rescued cat. It enables people to browse through a list of cats that are available for adoption and gives information about each cat. It also allows people to send their contact information along with the cat they are interested in.
+[for LOVE of CATS](https://morpheus-23.github.io/cat-love/) is a website for people who want to adopt a rescued cat. It enables people to browse through a list of cats that are available for adoption and gives information about each cat. It also allows people to send their contact information along with the name of the cat they are interested in.
 
 
 ## User Experience (UX)
@@ -44,14 +44,14 @@
         - Adoption request page, enabling potential adopters to apply for the adoption of a specifically selected cat, from the Our Cats page;
         - Find Us page, enabling potential adopters, collaborators, and the general public who may have information about cats needing rescue to make contact with fLoC.
 
-- Release 2: future specifications intended for release following website launch
+- Release 2: future specifications intended for release following the initial website launch:
     - For the next release, the following pages should be added:
-        - Rescue success stories, making provision for messages and photographs to be submitted to fLoC and published by fLoC following administrator approval to motivate potential adoptees or persons needing to surrender their cat to contact fLoC;
+        - Rescue success stories, making provision for messages and photographs to be submitted to fLoC and published by fLoC following administrator approval and to motivate potential adoptees or persons needing to surrender their cat to contact fLoC;
 
 - Release 3:
     - For the following release, the following pages should be added:
         - Emergency contact page, setting out contact details of rescuers and/or organisations that have agreed to collaborate efforts and are willing to stand in if/when fLoC cannot be reached in case of an emergency rescue;
-        - Volunteer application page, providing for a potential volunteer to submit an online photograph, a cv and a cover letter.
+        - Volunteer application page, providing for potential volunteers to submit a photograph, a cv and a cover letter.
 
 - Future releases:
     - For future releases, the following pages should be considered/developed;
@@ -200,7 +200,7 @@
   
 - Navigation Bar
     - Consistently located on each page allowing an intuitive user experience
-    - Provides links to the Home, Selection, Adoption and Find Us pages
+    - Provides links to the Home, Our Cats, Adoption and Find Us pages
     - The active menu item is highlighted and themed according to it's target page
 
 - Hero images
@@ -224,7 +224,7 @@
 
 - Adoption request page
     - Allows the user to submit a request to adopt a specific cat
-    - The user supplies all required fields allowing fLoC to to establish contact and start the process
+    - The user supplies all required fields allowing fLoC to establish contact and start the process
     
 - Find Us page
     - Provides operating hours, adress and contact information
@@ -260,7 +260,7 @@
 
 - First Time User
     - As a First Time User, I want the home page to entice me to indulge my curiosity about adopting a rescued cat.
-        * Each page has zooming hero image that holds the attention of the user
+        * Each page has a zooming hero image that holds the attention of the user
         * Each page has a colour theme that is consistent for that page
 
     - As a First Time User, I want each page to indicate the navigation possibilities of the site.
@@ -328,8 +328,7 @@
 ### Unfixed Bugs
 
 * See Validator testing error - Fixed in the next release
-* Content on 'Our Cats' and 'I want one' is not dynamically centered - Fixed in next release
-* Layout of cover text on hero images - Fixed in next release - done - double check !!
+
 
 ## Deployment
 
@@ -354,7 +353,6 @@
 
 ## Unimplemented assessment criteria
 
-* Alt text equivalents to cater for the visually impaired - done - to double check !!
 * Layout changes for all screen sizes
 
 ## Content
@@ -363,7 +361,6 @@
 - All images were taken from [pixabay](https://pixabay.com/)
 - Some design ideas were taken from Love Running and Coders Coffeehouse
 - A lot of technical implementation information were taken from [W3Schools](www.w3schools.com)
-- mention JS code for using dev tools 
 
 ## Directory structure
 
