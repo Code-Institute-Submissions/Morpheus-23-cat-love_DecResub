@@ -262,6 +262,25 @@ h2 {
     animation-fill-mode: forwards;
 }
 
+
+
+.adopt-us {
+    float: center;
+    height: 250px;
+    width: 250px;
+    
+  }
+  .adopt-me{
+    float: center;
+  }
+
+
+
+
+
+
+
+
 .cat-div {
     margin-left: 200px;
     margin-top: 50px;
