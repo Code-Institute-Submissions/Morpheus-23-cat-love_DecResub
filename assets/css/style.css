@@ -382,9 +382,14 @@ h2 {
 }
 
 .findus-section {
+    text-align: center;
+    font-size: 75%;
+}
+/*
+.findus-section {
     clear: left;
     height: 500px;
-}
+} */
 
 /* ---------------------- Footer */
 footer {
@@ -392,12 +397,7 @@ footer {
     text-align: center;
     padding: 3px;
 }
-.footer-banner {
-    height: 150px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
+
 
 .social-networks {
     text-align: center;
@@ -438,5 +438,15 @@ footer {
     padding: 4%;
     color: #fafafa;
 }
+
+
+.footer-banner {
+    height: 150px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
  */
  
