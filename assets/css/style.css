@@ -124,7 +124,6 @@ h2 {
 #hero-image { 
     height:600px;
     width: 100%;
-    /* background: url("../images/maincat.jpg") no-repeat center center;  */
     background: url("../images/maincat.jpg") center center/cover no-repeat;
     animation-name: hero-zoom;
     animation-duration: 6s;
@@ -136,7 +135,6 @@ h2 {
         transform: scale(0.8);
     }
     to{
-        /* transform: scale(1.2); */
         transform: scale(1);
     }
 }
@@ -154,19 +152,16 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     top: 100px;
-    /*  left: 150px;  */
     left: 20px;
     width: 350px;
     height: 350px;
     padding-top: 50px;
     padding-left: 20px;
-    /*  background-color: rgba(130,117,43, .5);  */
     position: absolute;
     border-radius: 60px;
 }
 
 #our-story-section {
-    /* height: 1200px; */
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -243,13 +238,11 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     top: 100px;
-    /* left: 150px; */
     left: 20px;
     width: 300px;
     height: 300px;
     padding-top: 50px;
     padding-left: 50px;
-    /* background-color: rgba(86,185,247, .3); */
     position: absolute;
     border-radius: 60px;
 }
@@ -263,7 +256,6 @@ h2 {
 #hero-image-ourcats { 
     height:600px;
     width: 100%;
-    /* background: url("../images/cat-blue.jpg") no-repeat center center; */
     background: url("../images/cat-blue.jpg") center center/cover no-repeat;
     animation-name: hero-zoom;
     animation-duration: 6s;
@@ -309,7 +301,6 @@ h2 {
 #hero-image-adopt { 
     height:600px;
     width: 100%;
-    /* background: url("../images/cat-green.jpg") no-repeat center center; */ 
     background: url("../images/cat-green.jpg") center center/cover no-repeat;
     animation-name: hero-zoom;
     animation-duration: 6s;
@@ -326,10 +317,6 @@ h2 {
     margin-bottom: 40px;
     color: #fafafa;
     background-color: #222222;
-    /* width: 80%; */
-    /* max-width: 667px; */
-    /* position: absolute; */
-    /* left: 10%; */
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 50px;
@@ -380,7 +367,6 @@ h2 {
 #hero-image-findus { 
     height:600px;
     width: 100%;
-    /* background: url("../images/findus-hero.jpg") no-repeat center center; */
     background: url("../images/findus-hero.jpg") center center/cover no-repeat;
     animation-name: hero-zoom;
     animation-duration: 6s;
@@ -391,13 +377,10 @@ h2 {
     text-align: center;
     font-size: 75%;
 }
-/*
-.findus-section {
-    clear: left;
-    height: 500px;
-} */
+
 
 /* ---------------------- Footer */
+
 footer {
     background-color: #0f0f0f;
     text-align: center;
@@ -421,38 +404,3 @@ footer {
 
 }
 
-
-/*
-
-.footer-banner.social-networks {
-    background-color: #222222;
-    color: #fafafa;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-}
-
-.social-networks li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 150%;
-    margin: 2%;
-    padding: 4%;
-    color: #fafafa;
-}
-
-
-.footer-banner {
-    height: 150px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-
- */
- 
