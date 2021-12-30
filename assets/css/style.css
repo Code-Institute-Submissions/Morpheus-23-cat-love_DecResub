@@ -387,10 +387,16 @@ h2 {
 }
 
 /* ---------------------- Footer */
-
+footer {
+    background-color: #0f0f0f;
+    text-align: center;
+    padding: 3px;
+}
 .footer-banner {
     height: 150px;
-
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .social-networks {
@@ -406,7 +412,7 @@ h2 {
     margin: 2%;
     padding: 4%;
     color: #fafafa;
-    background-color: #222222;
+
 }
 
 
