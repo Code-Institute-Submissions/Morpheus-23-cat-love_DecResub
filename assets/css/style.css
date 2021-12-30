@@ -389,12 +389,7 @@ h2 {
 /* ---------------------- Footer */
 
 .footer-banner {
-    background-color: #222222;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0:
-
+    height: 150px;
 
 }
 
@@ -411,6 +406,7 @@ h2 {
     margin: 2%;
     padding: 4%;
     color: #fafafa;
+    background-color: #222222;
 }
 
 
