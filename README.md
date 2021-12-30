@@ -358,7 +358,7 @@
 ## Content
 
 - All icons were taken from [Font Awesome](https://fontawesome.com/)
-- All images were taken from [pixabay](https://pixabay.com/)
+- All images were taken from [pixabay](https://pixabay.com/) and [free images](https://www.freeimages.com/photo/cat-eyes-1143176)
 - Some design ideas were taken from Love Running and Coders Coffeehouse
 - A lot of technical implementation information were taken from [W3Schools](www.w3schools.com)
 
