@@ -353,15 +353,16 @@
 
 ## Unimplemented assessment criteria
 
-* Layout changes for all screen sizes
+* Completion / finalisation of layout changes for all screen sizes, specific issues with the navigation bar and hero images not being responsive accross all devices. On some screen sizes the navigation bar covers a part of the logo.
 
 ## Content
 
 - All icons were taken from [Font Awesome](https://fontawesome.com/)
-- All images were taken from [pixabay](https://pixabay.com/) and [free images](https://www.freeimages.com/photo/cat-eyes-1143176)
-- Font and background colours were identified by using >>>>> and https://www.w3schools.com/colors/colors_picker.asp
+- All images were taken from [pixabay](https://pixabay.com/) and [free images](https://www.freeimages.com)
+- Font and background colours were identified by [W3Schools](https://www.w3schools.com/colors/)
 - Some design ideas were taken from Love Running and Coders Coffeehouse
 - A lot of technical implementation information were taken from [W3Schools](www.w3schools.com)
+- Some information was taken from [StackOverflow](https://stackoverflow.com/)
 
 ## Directory structure
 
