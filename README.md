@@ -316,18 +316,30 @@
 ### Validator testing
 
 - HTML
-    - No html errors were returned for all four pages when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+    - No html errors were returned for the index page when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmorpheus-23.github.io%2Fcat-love%2Findex.html)
+
+    - Various errors where returned for the our cats page when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmorpheus-23.github.io%2Fcat-love%2Four-cats.html)
+
+    - No html errors were returned for the adopt page when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmorpheus-23.github.io%2Fcat-love%2Fadopt.html)
+
+    - No html errors were returned for the find us page when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmorpheus-23.github.io%2Fcat-love%2Ffindus.html)
+
 
 - CSS
-    - No CSS errors were found when passing through the [(Jigsaw) validator](hhttps://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmorpheus-23.github.io%2Fcat-love%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=ens)
-
+    - No CSS errors were found when passing through the [(Jigsaw) validator]
+    - [home page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmorpheus-23.github.io%2Fcat-love%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - [our cats page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmorpheus-23.github.io%2Fcat-love%2Four-cats.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - [adopt page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmorpheus-23.github.io%2Fcat-love%2Fadopt.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - [find us page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmorpheus-23.github.io%2Fcat-love%2Ffindus.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - Google Chrome Lighthouse
+    - ![Test-1](./readme/lighthouse-1.png)
+    - ![Test-2](./readme/lighthouse-2.png)
 
 
 ### Unfixed Bugs
 
-* See Validator testing error - Fixed in the next release
+* See various HTML Validator testing errors in the Our Cats Page - To be fixed by the next release
 
 
 ## Deployment
@@ -354,6 +366,7 @@
 ## Unimplemented assessment criteria
 
 * Completion / finalisation of layout changes for all screen sizes, specific issues with the navigation bar and hero images not being responsive accross all devices. On some screen sizes the navigation bar covers a part of the logo.
+* Readme.md to get new images for I want one page and images for mobile mockups
 
 ## Content
 
